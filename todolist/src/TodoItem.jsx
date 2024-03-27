@@ -1,6 +1,6 @@
 import React from 'react';
 
-//Display each to do and if marked, a line-through will be added to the text
+// Component for each to do item with a line-through style if completed
 function TodoItem({ todo, onToggle }) {
   return (
     <li
