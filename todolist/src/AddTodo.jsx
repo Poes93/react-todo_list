@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+//Form to add new to do to the list
 function AddTodo({ onAdd }) {
   const [text, setText] = useState('');
 
